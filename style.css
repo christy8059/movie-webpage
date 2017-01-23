@@ -86,13 +86,13 @@ body {
 #poster {
     float: right;
     margin-top: 30px;
-    filter: blur(10px);
+    -webkit-filter: blur(10px);
     /*blurs the imagine depending on the pixels*/
     transition: filter 2s;
 }
 
 #poster:hover {
-    filter: blur(0)
+    -webkit-filter: blur(0)
     /*when the mouse is over it, it unblurs the image*/
 }
 
@@ -146,14 +146,14 @@ ul {
     position: relative;
     bottom: 650px;
     right: 420px;
-    filter: brightness(0);
+    -webkit-filter: brightness(0);
     /*sets brightness to 0 so its black*/
     transition: filter 2s;
     /*tells the computer what will be trasitioning*/
 }
 
 #cast-pic:hover {
-    filter: brightness(1)
+    -webkit-filter: brightness(1)
     /*sets the brightness to just enough so the person can see it*/
 }
 
