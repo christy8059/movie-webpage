@@ -21,15 +21,20 @@ h1:hover {
 @keyframes enterTop {
     0% {
         opacity: 0;
+        /*makes heading invisible*/
         transform: scale(.01);
+        /*makes heading small*/
     }
     50% {
         opacity: 1;
+        /*makes heading visible*/
         transform: scale(2);
+        /*makes heading twice its original size*/
     }
     100% {
         opacity: 1;
         transform: scale(1);
+        /*makes the size go back to usual*/
     }
 }
 
