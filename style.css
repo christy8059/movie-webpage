@@ -175,7 +175,7 @@ ul {
     position: absolute;
     font-family: 'Space Mono', monospace;
     color: white;
-    border-style: solid;/*border*/
+    border-style: solid; /*border*/
 }
 
 #num-k-tickets {
