@@ -1,16 +1,16 @@
 h1 {
     font-size: 50px;
     text-align: center;
-    color: white;
+    color: white; /*original font color*/
     font-family: 'Aref Ruqaa', serif;
-    text-shadow: 2px 2px 10px red;
-    animation-timing-function: ease;
-    animation: enterTop 1.5s;
-    transition: color 2s;
+    text-shadow: 2px 2px 10px red; /*x,y,blur,red */
+    animation-timing-function: ease;/*starts fast than slows down*/
+    animation: enterTop 1.5s; 
+    transition: color 2s; /*waits 2 seconds than it turns black*/
 }
 
 h1:hover {
-    color: black;
+    color: black;/* when mouse is on it, the text turns back */
 }
 
 @keyframes enterTop {
@@ -42,7 +42,7 @@ a {
 }
 
 body {
-    background: radial-gradient(red, black);
+    background: radial-gradient(red, black);/* background: mix of red and black where black is the outside of the cicirle*/
 }
 
 .movie-summary {
@@ -63,17 +63,17 @@ body {
     border-radius: 25px;
     border: 10px ridge black;
     padding: 20px;
-    transition: color 2s;
+    transition: color 2s;/*calling the transition. When the mouse is over it, it waits 2 second and then it turns black*/
 }
 
 #description:hover {
-    color: black;
+    color: black;/*the fucntion that creates the transition*/
 }
 
 #poster {
     float: right;
     margin-top: 30px;
-    filter: blur(10px);
+    filter: blur(10px);/**/ 
     transition: filter 2s;
 }
 
@@ -92,11 +92,11 @@ body {
     border-radius: 25px;
     border: 10px ridge black;
     padding: 20px;
-    transition: color 2s;
+    transition: color 2s;/*calling the transition. When the mouse is over it, it waits 2 second and then it turns black*/
 }
 
 .cast-members:hover {
-    color: black;
+    color: black;/*the fucntion that creates the transition*/
 }
 
 ul {
@@ -150,7 +150,7 @@ ul {
     float: left;
     font-family: 'Space Mono', monospace;
     color: white;
-    border-style: solid;
+    border-style: solid;/*border*/
 }
 
 #num-s-tickets {
@@ -162,7 +162,7 @@ ul {
     position: absolute;
     font-family: 'Space Mono', monospace;
     color: white;
-    border-style: solid;
+    border-style: solid; /*border*/
 }
 
 #num-a-tickets {
@@ -175,7 +175,7 @@ ul {
     position: absolute;
     font-family: 'Space Mono', monospace;
     color: white;
-    border-style: solid;
+    border-style: solid;/*border*/
 }
 
 #num-k-tickets {
